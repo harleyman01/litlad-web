@@ -1,0 +1,356 @@
+*{
+    margin: 0px;
+}
+
+header img{
+    margin-left: 120px;
+}
+
+header{
+    display: flex;
+    font-size: 26px;
+    align-items: center;
+}
+
+h1{
+    color: red;
+    font-style: oblique;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+
+li{
+    list-style: none;
+}
+
+.link{
+    margin-left: 200px;
+}
+
+.first-link{
+    padding: 15px;
+    color: #000;
+    font-size: 25px;
+    font-style: oblique;
+}
+
+.first-link:hover{
+   background-color: #000;
+    color: #fff;
+    border-radius: 12px;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+section{
+    background-color: rgba(14, 65, 206, 0.336);
+    display: flex;
+    justify-content: space-around;
+    padding-top: 150px;
+    font-size: 30px;
+
+}
+
+.note{
+    background-color: rgba(14, 65, 206, 0.336);
+    font-size: 30px;
+    font-style: oblique;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 150px;
+}
+
+.big-image{  
+    width: 475px;
+    height: 275px;
+    margin-top: 150px;
+}
+
+.second-image{
+    width: 30%;
+    height: 380px;
+    padding: 12px;
+    margin-left: 25px;
+    background-color: #000;
+}
+span{ 
+    background-color: #000; 
+}
+
+footer{
+    background-color: #000;
+    color: teal;
+    display: flex;
+    justify-content: space-around;
+}
+
+table, th, td{
+    padding: 15px;
+    text-align: center;
+}
+ 
+.footer-link {
+     color: teal;
+     font-size: 25px;
+}
+
+.enquiry{
+    margin-top: 115px;
+    font-size: 25px;
+}
+
+.Product{
+    top: px;
+    font-size: 35px;
+}
+
+.title{
+    padding-top: 10px;
+    padding-bottom: 0px;
+    text-align: center;
+    font-size: 50px;
+    background-color: #000;
+    color: #fff;
+    margin-top: 20px;
+}
+
+.quick-access{
+    padding-top: 13px;
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.list{
+    display: block;
+}
+.lis{
+    display: block;
+}
+
+.last-list{
+   font-size: 25px;
+   display: flex;
+}
+.footer-list{
+    padding: 12px;
+    font-size: 25px;
+}
+
+.copy-right{
+    font-size: 25px;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
+
+.finally{
+    font-size: 25px;
+    color: yellow;
+    border: 2px solid blue;
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 416px;
+}
+
+
+/* at media query  */
+
+@media screen and (max-width: 480px) {
+    header{
+        display: block;
+    }
+    header img{
+        display: none;
+    }
+    h1{
+        background-color: #000;
+        color: #fff;
+        font-size: 20px;
+        text-align: center;
+        margin-left: 0px;
+        margin-bottom: 10px;
+    }
+    ul{
+        display: block;
+    }
+    .link{
+        margin-left: 0px;
+        display: none;
+    }
+    section{
+        color: #fff;
+        background-color: teal;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        font-size: 15px;
+        justify-content: left;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    section img{
+        display: block;
+        padding: 0px;
+    }    
+    .note{
+        padding-left: 0px;
+        font-size: 15px;
+    }
+    .second-image{
+        width: 100px;
+        background-color: #fff;
+    }
+    .title{
+        color: #000;
+        background-color: #fff;
+        font-size: 25px;
+        border: 3px solid black;
+        margin: 12px;
+        position: stiky;
+        animation-name: title;
+        animation-duration: 5s;
+        animation-timing-function: ease-in;
+        animation-delay: 2s;
+        animation-iteration-count: infinite;
+        
+    }
+    @keyframes title {
+        0%   {color:red; }
+        25%  {color:yellow; }
+        50%  {color:blue; }
+        75%  {color:green; }
+        100% {color:red; }
+    }
+
+      @keyframes title {
+        0% {background-color: teal;}
+        25% {background-color: blue;}
+        50% {background-color: yellow;}
+        75% {background-color: yellow;}
+        100% {background-color: blue;}    
+    }
+    
+    footer{
+        display: block;
+        text-align: center;
+    }
+
+    table, th, td{
+        text-align: center;
+        margin-left: 50px;
+    }
+    .finally{
+        font-size: 20px;
+        margin-left: 300px;
+    }
+    .copy-right{
+        font-size: 20px;
+    }
+}
+
+/* at media query */
+
+@media screen and (max-width: 768px) {
+    header img{
+        margin-left: 0px;
+        padding-left: 0px;
+        display: none;
+    }
+    h1{
+        display: block;
+
+    /* background-color: #000; */
+    /* color: #fff; */
+    /* font-size: 15px; */
+    /* text-align: center; */
+    /* margin-left: 0px; */
+    /* margin-bottom: 10px; */
+}
+header{
+    font-size: px;
+}
+ul{
+    margin-right: 0px;
+    padding-right: 0px;
+    /* border: 22px solid black; */
+}
+
+    header a{
+        /* border: 2px solid teal; */
+        padding-right: 30px;
+        display: none;
+        font-size: 15px;
+        
+
+    }
+    section{
+        color: #fff;
+        background-color: teal;
+        padding-top: 0px;
+        margin-top: 0px;
+        margin-left: 0px;
+        padding-left: 0px;
+        font-size: 15px;
+        justify-content: left;
+        margin-bottom: 10px;
+        font-size: 20px;
+    }
+    section img{
+        display: none;
+        padding: 0px;
+    }    
+    .motive{
+        font-size: 30px;
+        padding-top: 90px;
+        padding-left: 40px;
+    }
+    .second-image{
+        width: 100%;
+        background-color: #fff;
+    }
+    .title{
+            color: #000;
+            background-color: #fff;
+            font-size: 25px;
+            border: 3px solid black;
+            margin: 12px;
+            position: stiky;
+            animation-name: title;
+            animation-duration: 5s;
+            animation-timing-function: ease-in;
+            animation-delay: 2s;
+            animation-iteration-count: infinite;    
+        }
+        @keyframes title {
+            0% {background-color: teal;}
+            25% {background-color: blue;}
+            50% {background-color: yellow;}
+            75% {background-color: yellow;}
+            100% {background-color: blue;}    
+        }
+        .finally{
+            display: none;
+        }
+}       
+
+
+/* at media query */
+
+@media screen and (max-width: 1024px) {
+    h1{
+        font-size: 30px;
+    }
+    .link{
+        margin-left: 10px;
+    }   
+    .second-image{
+        width: 250px;
+        background-color: #fff;
+        margin-left: 50px;
+    }
+}
